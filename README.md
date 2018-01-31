@@ -1,3 +1,5 @@
+# Gilded Rose: Problem
+
 Hi and welcome to team Gilded Rose.
 
 As you know, we are a small inn with a prime location in a prominent city ran
@@ -51,3 +53,29 @@ one-shot you as he doesn't believe in shared code ownership.
 Just for clarification, an item can never have its quality increase above 50,
 however "Sulfuras" is a legendary item and as such its quality is 80 and it
 never alters.
+
+## Class Solution
+
+### Assumptions
+
+- Item cannot be modified, but can be moved to a Class
+- Any type of Item can be Conjured (ie. Aged Brie could be conjured)
+
+### Setting up the project and running the tests
+
+- Use `npm install` to add all of the required package libraries
+- To run the tests for the class solution, use `./node_modules/.bin/jasmine ./js/spec/ClassSolution/inn.spec.js` or `npm test`
+- To see a simulation of what item qualities are after a certain number of days, use `node index.js` (currently runs for 6 days)
+
+## Non-class Solution
+
+### Assumptions
+
+- Item function cannot be changed or moved for fear of the Goblin one-shotting me (I hate being one-shot and needing to make a new character)
+- Any type of Item can be Conjured (ie. Aged Brie could be conjured)
+
+### Setting up the project and running the tests
+
+- Use `npm install` to add all of the required package libraries
+- To run the tests for the class solution, open the `SpecRunner.html` file in a browser
+- To see a simulation of what item qualities are after a certain number of days, open the `TexttextFixture.html` file in a browser

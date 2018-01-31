@@ -1,0 +1,22 @@
+{
+  "name": "gilded-rose-kata",
+  "version": "1.0.0",
+  "description": "CircleCI fun times!",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine ./js/spec/ClassSolution/inn.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serenitygrant/gilded-rose-kata.git"
+  },
+  "author": "Leah Spontaneo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/serenitygrant/gilded-rose-kata/issues"
+  },
+  "homepage": "https://github.com/serenitygrant/gilded-rose-kata#readme",
+  "devDependencies": {
+    "jasmine": "^2.9.0"
+  }
+}
